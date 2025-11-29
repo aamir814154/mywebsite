@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo E-Commerce Store</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1400x400') center/cover no-repeat;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 40px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            background: #ff6600;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Demo E-Commerce Store</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        Welcome to Our Online Store
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=500&q=60" alt="Product 1">
+            <h3>Shoe</h3>
+            <p>₹999</p>
+            <a class="btn">Add to Cart</a>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=500&q=60" alt="Product 2">
+            <h3>T-Shirt</h3>
+            <p>₹499</p>
+            <a class="btn">Add to Cart</a>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=500&q=60" alt="Product 3">
+            <h3>Watch</h3>
+            <p>₹1999</p>
+            <a class="btn">Add to Cart</a>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=500&q=60" alt="Product 4">
+            <h3>Cap</h3>
+            <p>₹299</p>
+            <a class="btn">Add to Cart</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Demo E-Commerce Website</p>
+    </footer>
+</body>
+</html>
